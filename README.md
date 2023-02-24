@@ -4,13 +4,15 @@
 <a href= "https://www.inteli.edu.br/"><img src="https://www.inteli.edu.br/wp-content/uploads/2021/08/20172028/marca_1-2.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0"></a>
 </p>
 
-# Nome do Projeto
+# Nome do Projeto (WIP)
 
 ## V.talícios
 
 ## Integrantes: <a href="https://www.linkedin.com/in/antonio-guimar%C3%A3es-2bb961264/">Antônio Guimarães</a>, <a href="https://www.linkedin.com/in/enzo-pagliara-30379a267/">Enzo Plagiara</a>, <a href="https://www.linkedin.com/in/fernando-machado-84673a212/">Fernanda Machado</a>, <a href="https://www.linkedin.com/in/heloisa-cavalcanti-oliveira-43b797267/">Heloísa Oliveira</a>, <a href="https://www.linkedin.com/in/mauricio-azevedo-neto/">Maurício Azevedo</a>, <a href="https://www.linkedin.com/in/murilo-prianti-0073111a1/">Murilo Prianti</a>, <a href="#">Sophia Nóbrega</a>
 
-## Descrição
+## Descrição (WIP)
+
+### Todo o conteúdo abaixo desta linha está sendo trabalhado
 
 📜 Descrição curta sobre o que seu projeto faz.
 <br><br>

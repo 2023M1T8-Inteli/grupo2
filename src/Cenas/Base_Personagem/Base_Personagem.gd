@@ -15,6 +15,8 @@ func _ready():
 		$AnimationPlayer.play("idleTEC")
 	if Global.jogador_escolhido == 2:
 		$AnimationPlayer.play("idleADM")
+	if Global.jogador_escolhido == 3:
+		$AnimationPlayer.play("idleEXEC")
 
 func _physics_process(delta: float) -> void:
 		velocity.y += gravity * delta
@@ -51,6 +53,16 @@ func _get_input():
 			$AnimationPlayer.play("walkTEC")
 		if Input.is_action_just_released("ui_left") or touch_left:
 			$AnimationPlayer.play("idleTEC")
+	
+	if Global.jogador_escolhido == 3:
+		if Input.is_action_just_pressed("ui_right") or touch_right:
+			$AnimationPlayer.play("walkEXEC")
+		if Input.is_action_just_released("ui_right") or touch_right:
+			$AnimationPlayer.play("idleEXEC")
+		if Input.is_action_just_pressed("ui_left") or touch_left:
+			$AnimationPlayer.play("walkEXEC")
+		if Input.is_action_just_released("ui_left") or touch_left:
+			$AnimationPlayer.play("idleEXEC")
 
 	if move_direction !=0:
 		$texture.scale.x = move_direction
@@ -63,6 +75,7 @@ func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("ui_up") or touch_jump:
 		velocity.y = jump_force / 2
 		
+		#Não funciona
 func _check_is_ground():
 	for raycast in raycasts.get_children():
 		if raycast.is_colliding():

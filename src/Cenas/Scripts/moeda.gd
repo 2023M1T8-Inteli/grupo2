@@ -10,3 +10,7 @@ func _on_moeda_body_entered(body):
 #Quando finalizar animação, sumir moeda
 func _on_AnimationPlayer_animation_finished(anim_name):
 	queue_free()
+	
+func _ready():
+	$CoinGold.position.x = 272
+	$CoinGold.position.y = 287

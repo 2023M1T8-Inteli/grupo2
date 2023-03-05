@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=17 format=2]
 
 [ext_resource path="res://FramesBoneco/Adm/BonecoAdmParado/parado2.png" type="Texture" id=1]
 [ext_resource path="res://FramesBoneco/Adm/BonecoAdmParado/parado4.png" type="Texture" id=2]
@@ -10,6 +10,8 @@
 [ext_resource path="res://Cenas/SelecaoDePersonagem/SelecaoDePersonagem.gd" type="Script" id=8]
 [ext_resource path="res://FramesBoneco/Adm/BonecoAdmParado/parado3.png" type="Texture" id=9]
 [ext_resource path="res://Fontes/Roboto-Bold.ttf" type="DynamicFontData" id=10]
+[ext_resource path="res://FramesBoneco/Exec/New Piskel-1.png (4).png" type="Texture" id=11]
+[ext_resource path="res://FramesBoneco/Exec/AndandoSheet(1).png" type="Texture" id=12]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -18,11 +20,47 @@ animations = [ {
 "name": "AdmParado",
 "speed": 3.0
 }, {
+"frames": [ ExtResource( 12 ) ],
+"loop": true,
+"name": "Sandra",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 5 ), ExtResource( 3 ), ExtResource( 6 ), ExtResource( 4 ) ],
 "loop": true,
 "name": "TecnicoParado",
 "speed": 3.0
 } ]
+
+[sub_resource type="Animation" id=3]
+resource_name = "ExecIdle"
+loop = true
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.3, 0.6, 0.9 ),
+"transitions": PoolRealArray( 1, 1, 1, 1 ),
+"update": 1,
+"values": [ 0, 1, 2, 3 ]
+}
+
+[sub_resource type="Animation" id=4]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:frame")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 0 ]
+}
 
 [sub_resource type="DynamicFont" id=2]
 size = 70
@@ -46,8 +84,8 @@ size_flags_vertical = 3
 color = Color( 0.203922, 0.321569, 0.278431, 1 )
 
 [node name="tecnico" type="AnimatedSprite" parent="ContainerFundo/FundoSelecao"]
-position = Vector2( 176, 256 )
-scale = Vector2( 0.359, 0.344 )
+position = Vector2( 184, 267 )
+scale = Vector2( 0.33575, 0.319059 )
 frames = SubResource( 1 )
 animation = "TecnicoParado"
 frame = 1
@@ -60,21 +98,8 @@ margin_top = -901.0
 margin_right = 598.0
 margin_bottom = 901.0
 
-[node name="executivo" type="AnimatedSprite" parent="ContainerFundo/FundoSelecao"]
-position = Vector2( 512, 256 )
-scale = Vector2( 0.359, 0.344 )
-frames = SubResource( 1 )
-animation = "TecnicoParado"
-
-[node name="BotaoIrExec" type="Button" parent="ContainerFundo/FundoSelecao/executivo"]
-modulate = Color( 1, 1, 1, 0 )
-margin_left = -629.0
-margin_top = -901.0
-margin_right = 598.0
-margin_bottom = 901.0
-
 [node name="administrador" type="AnimatedSprite" parent="ContainerFundo/FundoSelecao"]
-position = Vector2( 840, 243 )
+position = Vector2( 840, 254 )
 scale = Vector2( 0.359375, 0.34375 )
 frames = SubResource( 1 )
 animation = "AdmParado"
@@ -87,6 +112,24 @@ margin_left = -629.0
 margin_top = -901.0
 margin_right = 598.0
 margin_bottom = 901.0
+
+[node name="Sprite" type="Sprite" parent="ContainerFundo/FundoSelecao"]
+position = Vector2( 496, 287 )
+scale = Vector2( 0.15, 0.15 )
+texture = ExtResource( 11 )
+hframes = 4
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="ContainerFundo/FundoSelecao/Sprite"]
+autoplay = "ExecIdle"
+anims/ExecIdle = SubResource( 3 )
+anims/RESET = SubResource( 4 )
+
+[node name="BotaoIrExec" type="Button" parent="ContainerFundo/FundoSelecao/Sprite"]
+modulate = Color( 1, 1, 1, 0 )
+margin_left = -587.0
+margin_top = -1060.0
+margin_right = 640.0
+margin_bottom = 1020.0
 
 [node name="ContainerParaLabel" type="HBoxContainer" parent="."]
 margin_left = 16.0
@@ -127,5 +170,5 @@ text = "ADM"
 align = 1
 
 [connection signal="pressed" from="ContainerFundo/FundoSelecao/tecnico/BotaoIrTec" to="." method="_on_BotaoIrTec_pressed"]
-[connection signal="button_up" from="ContainerFundo/FundoSelecao/executivo/BotaoIrExec" to="." method="_on_BotaoIr_button_up"]
 [connection signal="pressed" from="ContainerFundo/FundoSelecao/administrador/BotaoIrAdm" to="." method="_on_BotaoIrAdm_pressed"]
+[connection signal="pressed" from="ContainerFundo/FundoSelecao/Sprite/BotaoIrExec" to="." method="_on_BotaoIrExec_pressed"]

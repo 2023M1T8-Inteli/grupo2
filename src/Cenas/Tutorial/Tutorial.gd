@@ -21,8 +21,11 @@ func _ready():
 	if Global.jogador_escolhido == 1:
 		 $personagem/texture.texture = load("res://FramesBoneco/Tecnico/BonecoParadoTecnico/parado1.png")
 	if Global.jogador_escolhido == 2:
-			$personagem/texture.texture = load("res://FramesBoneco/Adm/BonecoAdmParado/parado1.png")
+		$personagem/texture.texture = load("res://FramesBoneco/Adm/BonecoAdmParado/parado1.png")
+	if Global.jogador_escolhido == 3:
+		$personagem/texture.texture = load("res://FramesBoneco/Exec/Sandra.png")
 	$Gameover.hide()
+	
 
 
 

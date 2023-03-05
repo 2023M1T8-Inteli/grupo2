@@ -13,3 +13,8 @@ func _on_BotaoIrTec_pressed():
 func _on_BotaoIrAdm_pressed():
 	Global.jogador_escolhido = 2
 	get_tree().change_scene_to(load("res://Cenas/Tutorial/Tutorial.tscn"))
+
+#Se escolher EXEC
+func _on_BotaoIrExec_pressed():
+	Global.jogador_escolhido = 3
+	get_tree().change_scene_to(load("res://Cenas/Tutorial/Tutorial.tscn"))

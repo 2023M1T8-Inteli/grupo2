@@ -8,7 +8,7 @@
 [ext_resource path="res://assets/3 Objects/cadeira2.png" type="Texture" id=6]
 [ext_resource path="res://scenes/objects/elevator/elevador.tscn" type="PackedScene" id=7]
 [ext_resource path="res://assets/3 Objects/Ladder1.png" type="Texture" id=8]
-[ext_resource path="res://scenes/players/npc_ricardinho.tscn" type="PackedScene" id=9]
+[ext_resource path="res://scenes/players/npc_morilo.tscn" type="PackedScene" id=9]
 [ext_resource path="res://assets/3 Objects/janela.png" type="Texture" id=10]
 [ext_resource path="res://assets/1 Tiles/New Piskel-1.png (11).png" type="Texture" id=11]
 [ext_resource path="res://scenes/objects/elevator/on_elevator.tscn" type="PackedScene" id=12]
@@ -243,9 +243,6 @@ extents = Vector2( 220, 10 )
 position = Vector2( 1, 0 )
 script = ExtResource( 20 )
 
-[node name="npc" parent="." instance=ExtResource( 9 )]
-position = Vector2( 270, 539 )
-
 [node name="parallax_background" type="ParallaxBackground" parent="."]
 scroll_ignore_camera_zoom = true
 
@@ -296,4 +293,5 @@ visible = false
 
 [node name="CanvasLayer" parent="." instance=ExtResource( 18 )]
 
-[connection signal="body_entered" from="Area2D3" to="npc" method="_on_Area2D3_body_entered"]
+[node name="StaticBody2D" parent="." instance=ExtResource( 9 )]
+position = Vector2( 354, 553 )

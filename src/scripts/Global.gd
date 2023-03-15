@@ -6,3 +6,5 @@ var dia = false
 var jump = false
 var left = false
 var right = false
+
+var volume = 5

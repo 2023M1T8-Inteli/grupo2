@@ -3,7 +3,7 @@ extends KinematicBody2D
 const GRAVITY = 1000
 const SPEED = 200
 const JUMP_FORCE = 430
-const STANDART_ZOOM = lerp(0.65, 1, 1)
+const STANDART_ZOOM = lerp(1, 0.65, 1)
 const CLOSE_ZOOM = lerp(1, 0.65, 1)
 var is_jumping = false
 var movement = Vector2.ZERO

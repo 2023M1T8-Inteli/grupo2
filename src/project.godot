@@ -17,9 +17,11 @@ config/icon="res://icon.png"
 [autoload]
 
 Global="*res://scripts/Global.gd"
+SfxEffects="*res://scenes/effects/sfx_effects.tscn"
 
 [display]
 
+window/size/height=640
 window/size/resizable=false
 
 [gui]

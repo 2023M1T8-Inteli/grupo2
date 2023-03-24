@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Morte.mp3-343db6dcfbe49d49814e4128bae98cb6.mp3str"
+
+[deps]
+
+source_file="res://assets/9 Sounds/Morte.mp3"
+dest_files=[ "res://.import/Morte.mp3-343db6dcfbe49d49814e4128bae98cb6.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

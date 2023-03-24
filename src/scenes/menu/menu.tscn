@@ -1,36 +1,254 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=50 format=2]
 
 [ext_resource path="res://assets/8 Bttons/buttonPlay - Copia.png" type="Texture" id=1]
-[ext_resource path="res://assets/8 Bttons/engrenagem,.png" type="Texture" id=2]
-[ext_resource path="res://assets/2 Background/back.png" type="Texture" id=3]
+[ext_resource path="res://assets/7 Hud elements/New Piskel-1.png (26) (2).png" type="Texture" id=2]
+[ext_resource path="res://assets/7 Hud elements/engrenagem,-2.png.png" type="Texture" id=3]
 [ext_resource path="res://scenes/menu/menu.gd" type="Script" id=4]
+[ext_resource path="res://assets/7 Hud elements/engrenagem,-1.png.png" type="Texture" id=5]
+[ext_resource path="res://scenes/tileset/tilemap.tscn" type="PackedScene" id=6]
+
+[sub_resource type="AtlasTexture" id=1]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 0, 0, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=2]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 720, 0, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=3]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 1440, 0, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=4]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 2160, 0, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=5]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 2880, 0, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=6]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 3600, 0, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=7]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 4320, 0, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=8]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 0, 480, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=9]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 720, 480, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=10]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 1440, 480, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=11]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 2160, 480, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=12]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 2880, 480, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=13]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 3600, 480, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=14]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 4320, 480, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=15]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 0, 960, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=16]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 720, 960, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=17]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 1440, 960, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=18]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 2160, 960, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=19]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 2880, 960, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=20]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 3600, 960, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=21]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 4320, 960, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=22]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 0, 1440, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=23]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 720, 1440, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=24]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 1440, 1440, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=25]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 2160, 1440, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=26]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 2880, 1440, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=27]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 3600, 1440, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=28]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 4320, 1440, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=29]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 0, 1920, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=30]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 720, 1920, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=31]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 1440, 1920, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=32]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 2160, 1920, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=33]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 2880, 1920, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=34]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 3600, 1920, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=35]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 4320, 1920, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=36]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 0, 2400, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=37]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 720, 2400, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=38]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 1440, 2400, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=39]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 2160, 2400, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=40]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 2880, 2400, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=41]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 3600, 2400, 720, 480 )
+
+[sub_resource type="AtlasTexture" id=42]
+flags = 4
+atlas = ExtResource( 2 )
+region = Rect2( 4320, 2400, 720, 480 )
+
+[sub_resource type="SpriteFrames" id=43]
+animations = [ {
+"frames": [ SubResource( 1 ), SubResource( 2 ), SubResource( 3 ), SubResource( 4 ), SubResource( 5 ), SubResource( 6 ), SubResource( 7 ), SubResource( 8 ), SubResource( 9 ), SubResource( 10 ), SubResource( 11 ), SubResource( 12 ), SubResource( 13 ), SubResource( 14 ), SubResource( 15 ), SubResource( 16 ), SubResource( 17 ), SubResource( 18 ), SubResource( 19 ), SubResource( 20 ), SubResource( 21 ), SubResource( 22 ), SubResource( 23 ), SubResource( 24 ), SubResource( 25 ), SubResource( 26 ), SubResource( 27 ), SubResource( 28 ), SubResource( 29 ), SubResource( 30 ), SubResource( 31 ), SubResource( 32 ), SubResource( 33 ), SubResource( 34 ), SubResource( 35 ), SubResource( 36 ), SubResource( 37 ), SubResource( 38 ), SubResource( 39 ), SubResource( 40 ), SubResource( 41 ), SubResource( 42 ) ],
+"loop": true,
+"name": "default",
+"speed": 25.0
+} ]
 
 [node name="Control" type="Control"]
 margin_right = 40.0
 margin_bottom = 40.0
 script = ExtResource( 4 )
 
-[node name="background" type="Sprite" parent="."]
-position = Vector2( 515.5, 297.75 )
-scale = Vector2( 1.86727, 1.60899 )
-texture = ExtResource( 3 )
+[node name="tilemap" parent="." instance=ExtResource( 6 )]
+tile_data = PoolIntArray( 0, 2, 0, 1, 2, 0, 2, 2, 0, 3, 2, 0, 4, 2, 0, 5, 2, 0, 6, 2, 0, 7, 2, 0, 8, 2, 0, 9, 2, 0, 10, 2, 0, 11, 2, 0, 12, 2, 0, 13, 2, 0, 14, 2, 0, 15, 2, 0, 65536, 2, 0, 65537, 2, 0, 65538, 2, 0, 65539, 2, 0, 65540, 2, 0, 65541, 2, 0, 65542, 2, 0, 65543, 2, 0, 65544, 2, 0, 65545, 2, 0, 65546, 2, 0, 65547, 2, 0, 65548, 2, 0, 65549, 2, 0, 65550, 2, 0, 65551, 2, 0, 131072, 2, 0, 131073, 2, 0, 131074, 2, 0, 131075, 2, 0, 131076, 2, 0, 131077, 2, 0, 131078, 2, 0, 131079, 2, 0, 131080, 2, 0, 131081, 2, 0, 131082, 2, 0, 131083, 2, 0, 131084, 2, 0, 131085, 2, 0, 131086, 2, 0, 131087, 2, 0, 196608, 2, 0, 196609, 2, 0, 196610, 2, 0, 196611, 2, 0, 196612, 2, 0, 196613, 2, 0, 196614, 2, 0, 196615, 2, 0, 196616, 2, 0, 196617, 2, 0, 196618, 2, 0, 196619, 2, 0, 196620, 2, 0, 196621, 2, 0, 196622, 2, 0, 196623, 2, 0, 262144, 5, 0, 262145, 2, 0, 262146, 2, 0, 262147, 2, 0, 262148, 2, 0, 262149, 2, 0, 262150, 2, 0, 262151, 2, 0, 262152, 2, 0, 262153, 2, 0, 262154, 2, 0, 262155, 2, 0, 262156, 2, 0, 262157, 2, 0, 262158, 2, 0, 262159, 6, 0, 327680, 21, 0, 327681, 2, 0, 327682, 2, 0, 327683, 2, 0, 327684, 2, 0, 327685, 2, 0, 327686, 2, 0, 327687, 2, 0, 327688, 2, 0, 327689, 2, 0, 327690, 2, 0, 327691, 2, 0, 327692, 2, 0, 327693, 2, 0, 327694, 2, 0, 327695, 19, 0, 393216, 21, 0, 393217, 2, 0, 393218, 2, 0, 393219, 2, 0, 393220, 2, 0, 393221, 2, 0, 393222, 2, 0, 393223, 2, 0, 393224, 2, 0, 393225, 2, 0, 393226, 2, 0, 393227, 2, 0, 393228, 2, 0, 393229, 2, 0, 393230, 2, 0, 393231, 19, 0, 458752, 33, 0, 458753, 5, 0, 458754, 0, 0, 458755, 0, 0, 458756, 0, 0, 458757, 0, 0, 458758, 0, 0, 458759, 0, 0, 458760, 0, 0, 458761, 0, 0, 458762, 0, 0, 458763, 0, 0, 458764, 0, 0, 458765, 0, 0, 458766, 6, 0, 458767, 31, 0, 524288, 25, 0, 524289, 33, 0, 524290, 22, 0, 524291, 22, 0, 524292, 22, 0, 524293, 22, 0, 524294, 22, 0, 524295, 22, 0, 524296, 22, 0, 524297, 22, 0, 524298, 22, 0, 524299, 22, 0, 524300, 22, 0, 524301, 22, 0, 524302, 31, 0, 524303, 25, 0, 589824, 25, 0, 589825, 25, 0, 589826, 25, 0, 589827, 25, 0, 589828, 25, 0, 589829, 25, 0, 589830, 25, 0, 589831, 25, 0, 589832, 25, 0, 589833, 25, 0, 589834, 25, 0, 589835, 25, 0, 589836, 25, 0, 589837, 25, 0, 589838, 25, 0, 589839, 25, 0 )
 
 [node name="options_button" type="Sprite" parent="."]
-position = Vector2( 713, 318 )
-scale = Vector2( 0.589474, 0.589474 )
-texture = ExtResource( 2 )
+position = Vector2( 504.5, 403.5 )
+scale = Vector2( 4.78947, 4.81579 )
+texture = ExtResource( 3 )
 
 [node name="Button2" type="Button" parent="options_button"]
 modulate = Color( 0, 0, 0, 0 )
-margin_left = -171.0
-margin_top = -182.0
-margin_right = 199.0
-margin_bottom = 192.0
+margin_left = -174.132
+margin_top = -181.59
+margin_right = 195.868
+margin_bottom = 192.41
 align = 0
 
 [node name="play_button" type="Sprite" parent="."]
-position = Vector2( 299, 321 )
-scale = Vector2( 0.589474, 0.589474 )
+position = Vector2( 281.75, 404.5 )
+scale = Vector2( 0.472368, 0.486842 )
 texture = ExtResource( 1 )
 
 [node name="Button" type="Button" parent="play_button"]
@@ -40,6 +258,17 @@ margin_top = -190.0
 margin_right = 191.0
 margin_bottom = 198.0
 align = 0
+
+[node name="AnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( 514, 147 )
+frames = SubResource( 43 )
+frame = 25
+playing = true
+
+[node name="info_button" type="Sprite" parent="."]
+position = Vector2( 729.5, 405 )
+scale = Vector2( 4.89474, 4.84211 )
+texture = ExtResource( 5 )
 
 [connection signal="pressed" from="options_button/Button2" to="." method="_on_Button2_pressed"]
 [connection signal="pressed" from="play_button/Button" to="." method="_on_Button_pressed"]

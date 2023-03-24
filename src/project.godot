@@ -22,7 +22,7 @@ SfxEffects="*res://scenes/effects/sfx_effects.tscn"
 [display]
 
 window/size/height=640
-window/size/resizable=false
+window/stretch/mode="viewport"
 
 [gui]
 

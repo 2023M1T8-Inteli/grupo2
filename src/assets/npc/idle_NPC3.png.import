@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/pedro.png-6314441db5c0258ddb9c12d043b93b90.stex"
+path="res://.import/idle_NPC3.png-ad673af250d25d8a62ce70aa054c8de6.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/npc/pedro.png"
-dest_files=[ "res://.import/pedro.png-6314441db5c0258ddb9c12d043b93b90.stex" ]
+source_file="res://assets/npc/idle_NPC3.png"
+dest_files=[ "res://.import/idle_NPC3.png-ad673af250d25d8a62ce70aa054c8de6.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2

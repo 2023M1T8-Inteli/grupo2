@@ -64,10 +64,14 @@ position = Vector2( 2966, 442 )
 [node name="Area2D" parent="." instance=ExtResource( 11 )]
 position = Vector2( 97, 443 )
 
+[node name="npc" parent="." instance=ExtResource( 14 )]
+position = Vector2( 483, 383 )
+
 [node name="player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 71, 399 )
 
 [node name="deathzone" type="Area2D" parent="."]
+visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="deathzone"]
 position = Vector2( 930.5, 480.75 )
@@ -97,12 +101,11 @@ wait_time = 0.5
 [node name="wire" parent="." instance=ExtResource( 3 )]
 position = Vector2( 1158, 93 )
 
-[node name="npc" parent="." instance=ExtResource( 14 )]
-position = Vector2( 483, 387 )
-
 [node name="CanvasLayer3" parent="." instance=ExtResource( 15 )]
+visible = false
 
 [node name="Control" parent="." instance=ExtResource( 16 )]
+visible = false
 
 [connection signal="body_entered" from="deathzone" to="." method="_on_deathzone_body_entered"]
 [connection signal="timeout" from="deathzone/Timer" to="." method="_on_Timer_timeout"]

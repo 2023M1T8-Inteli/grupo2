@@ -60,6 +60,9 @@ position = Vector2( 108, 442 )
 [node name="Area2D2" parent="." instance=ExtResource( 11 )]
 position = Vector2( 3940, 186 )
 
+[node name="npc" parent="." instance=ExtResource( 14 )]
+position = Vector2( 2223, 318 )
+
 [node name="player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 73, 277 )
 
@@ -84,9 +87,6 @@ shape = SubResource( 2 )
 
 [node name="cash" parent="." instance=ExtResource( 4 )]
 position = Vector2( 954, 225 )
-
-[node name="npc" parent="." instance=ExtResource( 14 )]
-position = Vector2( 2224, 323 )
 
 [node name="CanvasLayer3" parent="." instance=ExtResource( 15 )]
 

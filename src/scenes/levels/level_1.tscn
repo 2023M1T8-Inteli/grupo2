@@ -34,7 +34,7 @@ position = Vector2( 74, 443 )
 position = Vector2( 3474, 442 )
 
 [node name="npc" parent="." instance=ExtResource( 5 )]
-position = Vector2( 654, 197 )
+position = Vector2( 644, 189 )
 
 [node name="condecoration" parent="." instance=ExtResource( 11 )]
 position = Vector2( 1655, 286 )
@@ -102,6 +102,7 @@ visible = false
 [node name="arrows_controller" parent="." instance=ExtResource( 8 )]
 
 [node name="Control" parent="." instance=ExtResource( 9 )]
+visible = false
 
 [node name="TileMap" parent="." instance=ExtResource( 10 )]
 tile_data = PoolIntArray( 524328, 0, 0, 524329, 0, 0, 524330, 0, 0, 524331, 0, 0, 524332, 0, 0, 524333, 0, 0, 589847, 0, 0, 589848, 0, 0, 589849, 0, 0, 589850, 0, 0, 589851, 0, 0, 589852, 0, 0 )
@@ -121,6 +122,7 @@ shape = SubResource( 1 )
 wait_time = 0.5
 
 [node name="Control2" parent="." instance=ExtResource( 13 )]
+visible = false
 
 [connection signal="body_entered" from="death_zone" to="." method="_on_death_zone_body_entered"]
 [connection signal="timeout" from="death_zone/Timer" to="." method="_on_Timer_timeout"]

@@ -1,4 +1,4 @@
-[gd_scene load_steps=25 format=2]
+[gd_scene load_steps=26 format=2]
 
 [ext_resource path="res://scenes/tileset/tilemap.tscn" type="PackedScene" id=1]
 [ext_resource path="res://scenes/players/main_player.tscn" type="PackedScene" id=2]
@@ -21,6 +21,7 @@
 [ext_resource path="res://assets/npc/natalia.png" type="Texture" id=19]
 [ext_resource path="res://assets/7 Hud elements/feedback_box.png" type="Texture" id=20]
 [ext_resource path="res://fonts/Press_Start_2P/PressStart2P-Regular.ttf" type="DynamicFontData" id=21]
+[ext_resource path="res://scenes/hud_elements/controller_arrows.tscn" type="PackedScene" id=22]
 
 [sub_resource type="RectangleShape2D" id=1]
 
@@ -30,6 +31,7 @@ font_data = ExtResource( 21 )
 [sub_resource type="RectangleShape2D" id=3]
 
 [node name="level_final" type="Node2D"]
+position = Vector2( -15, 3 )
 script = ExtResource( 18 )
 
 [node name="tilemap" parent="." instance=ExtResource( 1 )]
@@ -104,20 +106,21 @@ position = Vector2( 4266.67, 746.667 )
 scale = Vector2( 3.33333, 2.66667 )
 texture = ExtResource( 6 )
 
-[node name="player" parent="." instance=ExtResource( 2 )]
-position = Vector2( 7, 403 )
-
 [node name="Sprite" type="Sprite" parent="."]
-position = Vector2( 1580, 478 )
+position = Vector2( 827, 483 )
 texture = ExtResource( 19 )
 flip_h = true
 
+[node name="player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 7, 403 )
+
 [node name="feedback_final" type="TouchScreenButton" parent="."]
-position = Vector2( 1520, 432 )
+position = Vector2( 769, 431 )
 scale = Vector2( 6, 4 )
 shape = SubResource( 1 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
+visible = false
 
 [node name="Sprite" type="Sprite" parent="CanvasLayer"]
 position = Vector2( 654, 383 )
@@ -145,6 +148,8 @@ autowrap = true
 position = Vector2( 170, 116 )
 scale = Vector2( 37, 24 )
 shape = SubResource( 3 )
+
+[node name="CanvasLayer2" parent="." instance=ExtResource( 22 )]
 
 [connection signal="pressed" from="feedback_final" to="." method="_on_TouchScreenButton_pressed"]
 [connection signal="pressed" from="CanvasLayer/home" to="." method="_on_home_pressed"]

@@ -10,16 +10,14 @@
 
 ## Integrantes: <a href="https://www.linkedin.com/in/antonio-guimar%C3%A3es-2bb961264/">Antonio Artimonte Vaz Guimarães</a>, <a href="https://www.linkedin.com/in/enzo-pagliara-30379a267/">Enzo Plagiara</a>, <a href="https://www.linkedin.com/in/fernando-machado-84673a212/">Fernando Machado</a>, <a href="https://www.linkedin.com/in/heloisa-cavalcanti-oliveira-43b797267/">Heloisa Oliveira</a>, <a href="https://www.linkedin.com/in/mauricio-azevedo-neto/">Maurício Azevedo</a>, <a href="https://www.linkedin.com/in/murilo-prianti-0073111a1/">Murilo Prianti</a>, <a href="#">Sophia Nóbrega</a>
 
-## Descrição (WIP)
+## Descrição
 
-### Todo o conteúdo abaixo desta linha está sendo trabalhado
-
-📜 Descrição curta sobre o que seu projeto faz.
+###O que é o V.talícios?
 <br><br>
 V.talícios é um jogo de plataforma 2D com três distintos personagens jogáveis. O jogador vivenciará cenários e desafios diferentes dependendo do personagem apresentado, que o levarão a compreender assertivamente sobre o Código de Conduta e Ética da V.tal. Claudemir, Ricardinho e Sandra, os heróis desta narrativa, deverão responder perguntas que irão pôr em prova seus conhecimentos acerca do compliance da empresa, tendo como cenário de fundo o próprio prédio da V.tal.
 <br><br>
 
-💡 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
+### Nosso objetivo
 <br><br>
 Este jogo tem como objetivo principal aprimorar, de forma lúdica, as habilidades e competências dos jogadores em relação ao código de ética e conduta da V.tal, desenvolvendo pensamento crítico a partir de interações com outras entidades que eles irão encontrar no decorrer da narrativa. Com um estilo semelhante ao Super Mario Bros, são apresentados desafios que estimulam a participação ativa do jogador, demandando habilidades de maneira progressiva e impactando o público da sua maneira.
 <br><br>

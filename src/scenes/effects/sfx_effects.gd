@@ -1,16 +1,23 @@
 extends Node2D
 
 func _ready():
-	#Define valores da música para música de morte, pulo e fundo
+	#Seta os volumes específicos de cada música
 	$death.volume_db = -80
 	$main_song.volume_db = -28
 	$jump.volume_db = -80
 	
 func _process(delta):
-	$death.volume_db = -80
-	#Defina o volume da música do jogo com base na escolha do jogador no menu options
-	$main_song.volume_db = Global.volume
-	$jump.volume_db = -80
-	
+	#Altera os volumes de cada música de acordo com o volume que o usuário selecionou na tela de configurações. O som de death é maior para se destacar na música de fundo.
+	$death.volume_db = Global.volume + 10
+	$main_song.volume_db = Global.volume - 10
+	$jump.volume_db = Global.volume
+
+#Funções da música do jogo
 func play_music():
 	$main_song.play()
+
+func _death():
+	$death.play()
+
+func _jump():
+	$jump.play()

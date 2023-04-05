@@ -69,6 +69,9 @@ tile_data = PoolIntArray( 458773, 0, 0, 458778, 0, 0, 458784, 0, 0, 458785, 0, 0
 [node name="Area2D" parent="." instance=ExtResource( 13 )]
 position = Vector2( 2719, 314 )
 
+[node name="npc" parent="." instance=ExtResource( 15 )]
+position = Vector2( 288, 383 )
+
 [node name="player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 38, 273 )
 
@@ -95,9 +98,6 @@ wait_time = 0.5
 
 [node name="CanvasLayer2" parent="." instance=ExtResource( 14 )]
 
-[node name="npc" parent="." instance=ExtResource( 15 )]
-position = Vector2( 288, 388 )
-
 [node name="CanvasLayer3" parent="." instance=ExtResource( 16 )]
 visible = false
 
@@ -105,6 +105,7 @@ visible = false
 position = Vector2( 766, 461 )
 
 [node name="Control" parent="." instance=ExtResource( 17 )]
+visible = false
 
 [connection signal="body_entered" from="deathzone" to="." method="_on_deathzone_body_entered"]
 [connection signal="timeout" from="deathzone/Timer" to="." method="_on_Timer_timeout"]

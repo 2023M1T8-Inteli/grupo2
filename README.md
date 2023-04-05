@@ -13,7 +13,6 @@
 ## Descrição
 
 ### O que é o V.talícios?
-<br><br>
 V.talícios é um jogo de plataforma 2D com três distintos personagens jogáveis. O jogador vivenciará cenários e desafios diferentes dependendo do personagem apresentado, que o levarão a compreender assertivamente sobre o Código de Conduta e Ética da V.tal. Claudemir, Ricardinho e Sandra, os heróis desta narrativa, deverão responder perguntas que irão pôr em prova seus conhecimentos acerca do compliance da empresa, tendo como cenário de fundo o próprio prédio da V.tal.
 
 ### Nosso objetivo

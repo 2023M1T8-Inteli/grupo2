@@ -9,7 +9,7 @@
 script = ExtResource( 4 )
 
 [node name="jump" type="TouchScreenButton" parent="."]
-position = Vector2( 831, 485 )
+position = Vector2( 942, 485 )
 normal = ExtResource( 3 )
 
 [node name="left_arrow" type="TouchScreenButton" parent="."]

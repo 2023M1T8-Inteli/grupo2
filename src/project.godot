@@ -18,10 +18,13 @@ config/icon="res://icon.png"
 
 Global="*res://scripts/Global.gd"
 SfxEffects="*res://scenes/effects/sfx_effects.tscn"
+Dialogs="*res://scripts/dialogs.gd"
 
 [display]
 
+window/size/width=1138
 window/size/height=640
+window/size/resizable=false
 window/stretch/mode="viewport"
 
 [gui]

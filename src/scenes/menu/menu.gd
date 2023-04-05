@@ -11,3 +11,7 @@ func _on_Button_pressed():
 func _on_Button2_pressed():
 	#Redireciona para as configurações
 	get_tree().change_scene_to(load("res://scenes/options/options.tscn"))
+
+func _on_Button3_pressed():
+	#Redireciona para as informações
+	get_tree().change_scene_to(load("res://scenes/info/info.tscn"))

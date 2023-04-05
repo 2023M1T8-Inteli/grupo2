@@ -1,9 +1,10 @@
 extends CanvasLayer
 
-#Código para movimentação com as setas
+#Código para movimentação com as setas touchs
 
 func _on_jump_pressed():
 	Global.jump = true
+
 
 func _on_jump_released():
 	Global.jump = false

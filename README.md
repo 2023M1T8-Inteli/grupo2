@@ -4,7 +4,7 @@
 <a href= "https://www.inteli.edu.br/"><img src="https://www.inteli.edu.br/wp-content/uploads/2021/08/20172028/marca_1-2.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0"></a>
 </p>
 
-# Nome do Projeto (WIP)
+# V.talícios
 
 ## V.talícios
 
@@ -16,17 +16,12 @@
 
 📜 Descrição curta sobre o que seu projeto faz.
 <br><br>
-Meu projeto é um exemplo de como utilizar o github.
+V.talícios é um jogo de plataforma 2D com três distintos personagens jogáveis. O jogador vivenciará cenários e desafios diferentes dependendo do personagem apresentado, que o levarão a compreender assertivamente sobre o Código de Conduta e Ética da V.tal. Claudemir, Ricardinho e Sandra, os heróis desta narrativa, deverão responder perguntas que irão pôr em prova seus conhecimentos acerca do compliance da empresa, tendo como cenário de fundo o próprio prédio da V.tal.
 <br><br>
-<p align="center">
-<img src="https://pix4free.org/assets/library/2021-01-20/originals/game.jpg" alt="NOME DO JOGO" border="0">
-  Game by <a href="http://www.nyphotographic.com/">Nick Youngson</a> <a rel="license" href="https://creativecommons.org/licenses/by-sa/3.0/">CC BY-SA 3.0</a> <a href="http://pix4free.org/">Pix4free</a>
-</p>
-
 
 💡 De um a dois parágrafos sobre o que é seu projeto e o que ele faz.
 <br><br>
-V.talícios é um jogo de plataforma 2D com três distintos personagens jogáveis. O jogador vivenciará cenários e desafios diferentes dependendo do personagem apresentado, que o levarão a compreender assertivamente sobre o Código de Conduta e Ética da V.tal. Claudemir, Ricardinho e Sandra, os heróis desta narrativa, deverão responder perguntas que irão pôr em prova seus conhecimentos acerca do compliance da empresa, tendo como cenário de fundo o próprio prédio da V.tal.
+Este jogo tem como objetivo principal aprimorar, de forma lúdica, as habilidades e competências dos jogadores em relação ao código de ética e conduta da V.tal, desenvolvendo pensamento crítico a partir de interações com outras entidades que eles irão encontrar no decorrer da narrativa. Com um estilo semelhante ao Super Mario Bros, são apresentados desafios que estimulam a participação ativa do jogador, demandando habilidades de maneira progressiva e impactando o público da sua maneira.
 <br><br>
 
 ## 🛠 Estrutura de pastas

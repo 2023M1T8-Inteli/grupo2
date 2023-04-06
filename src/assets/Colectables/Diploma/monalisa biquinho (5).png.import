@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/monalisa biquinho (2).png-dc294c4b1d1242a512179d6b61e969b8.stex"
+path="res://.import/monalisa biquinho (5).png-d63d97952c9785d2ca6a47adb5e0a310.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/10 Colectables/Diploma/monalisa biquinho (2).png"
-dest_files=[ "res://.import/monalisa biquinho (2).png-dc294c4b1d1242a512179d6b61e969b8.stex" ]
+source_file="res://assets/Colectables/Diploma/monalisa biquinho (5).png"
+dest_files=[ "res://.import/monalisa biquinho (5).png-d63d97952c9785d2ca6a47adb5e0a310.stex" ]
 
 [params]
 

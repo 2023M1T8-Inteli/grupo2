@@ -30,23 +30,23 @@ func _process(delta):
 	elif Global.level == 2:
 		level_dialog = Dialogs.level_02_dialog
 		$player_sprite.texture = load("res://assets/players/sandra/sandra_idle.png")
-		$npc_sprite.texture = load("res://assets/npc/morilo.png")
+		$npc_sprite.texture = load("res://assets/npc/idle_NPC4.png")
 	elif Global.level == 3:
 		level_dialog = Dialogs.level_03_dialog
 		$player_sprite.texture = load("res://assets/players/ricardinho/ricardinho_idle.png")
-		$npc_sprite.texture = load("res://assets/npc/otavio.png")
+		$npc_sprite.texture = load("res://assets/npc/idle_NPC2.png")
 	elif Global.level == 4:
 		level_dialog = Dialogs.level_04_dialog
 		$player_sprite.texture = load("res://assets/players/ricardinho/ricardinho_idle.png")
-		$npc_sprite.texture = load("res://assets/npc/nauru.png")
+		$npc_sprite.texture = load("res://assets/npc/idle_NPC3.png")
 	elif Global.level == 5:
 		level_dialog = Dialogs.level_05_dialog
 		$player_sprite.texture = load("res://assets/players/claudemir/claudemir_idle.png")
-		$npc_sprite.texture = load("res://assets/npc/cinderelo.png")
+		$npc_sprite.texture = load("res://assets/npc/idle_NPC1.png")
 	elif Global.level == 6:
 		level_dialog = Dialogs.level_06_dialog
 		$player_sprite.texture = load("res://assets/players/claudemir/claudemir_idle.png")
-		$npc_sprite.texture = load("res://assets/npc/pedro.png")
+		$npc_sprite.texture = load("res://assets/npc/idle_NPC5.png")
 	#Se a caixa de feedback estiver ativa, ela precisa ser escondida antes de mostrar a caixa de diálogo.
 	if !Global.is_feedback_box_active:
 		$feedback_box.hide()

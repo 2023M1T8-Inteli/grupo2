@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/BUFUNFA.png-785fbf09891b2f71b78e5a8ab0889135.stex"
+path="res://.import/BUFUNFE.png-644a0b6a6211a77c5cd97de2db26eb70.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/10 Colectables/Maleta/BUFUNFA.png"
-dest_files=[ "res://.import/BUFUNFA.png-785fbf09891b2f71b78e5a8ab0889135.stex" ]
+source_file="res://assets/Colectables/Maleta/BUFUNFE.png"
+dest_files=[ "res://.import/BUFUNFE.png-644a0b6a6211a77c5cd97de2db26eb70.stex" ]
 
 [params]
 

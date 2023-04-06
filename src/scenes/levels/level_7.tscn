@@ -111,6 +111,8 @@ position = Vector2( 827, 483 )
 texture = ExtResource( 19 )
 flip_h = true
 
+[node name="exclamation" type="Sprite" parent="Sprite"]
+
 [node name="player" parent="." instance=ExtResource( 2 )]
 position = Vector2( 7, 403 )
 

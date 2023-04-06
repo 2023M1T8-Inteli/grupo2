@@ -10,7 +10,8 @@ config_version=4
 
 [application]
 
-config/name="PersonalProject"
+config/name="V.talícios"
+config/description="Um game para ajudar no treinamento dos colaboradores da empresa acerca do compliance. Abordamos os subtemas \"brindes, presentes e hospitalidades\" e \"relacionamentos com agentes públicos\""
 run/main_scene="res://scenes/menu/menu.tscn"
 config/icon="res://icon.png"
 

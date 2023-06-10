@@ -1,14 +1,22 @@
 # Inteli - Instituto de Tecnologia e Liderança 
 
 <p align="center">
-<a href= "https://www.inteli.edu.br/"><img src="https://www.inteli.edu.br/wp-content/uploads/2021/08/20172028/marca_1-2.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0"></a>
+<a href= "https://www.inteli.edu.br/"><img src="https://s3.amazonaws.com/gupy5/production/companies/26702/career/63484/images/2022-04-28_16-56_logo.png" alt="Inteli - Instituto de Tecnologia e Liderança" border="0"></a>
 </p>
 
 # V.talícios
 
 ## V.talícios
 
-## Integrantes: <a href="https://www.linkedin.com/in/antonio-guimar%C3%A3es-2bb961264/">Antonio Artimonte Vaz Guimarães</a>, <a href="https://www.linkedin.com/in/enzo-pagliara-30379a267/">Enzo Plagiara</a>, <a href="https://www.linkedin.com/in/fernando-machado-84673a212/">Fernando Machado</a>, <a href="https://www.linkedin.com/in/heloisa-cavalcanti-oliveira-43b797267/">Heloisa Oliveira</a>, <a href="https://www.linkedin.com/in/mauricio-azevedo-neto/">Maurício Azevedo</a>, <a href="https://www.linkedin.com/in/murilo-prianti-0073111a1/">Murilo Prianti</a>, <a href="#">Sophia Nóbrega</a>
+## Integrantes: 
+
+- <a href="https://www.linkedin.com/in/antonio-guimar%C3%A3es-2bb961264/">Antonio Artimonte Vaz Guimarães</a>
+- <a href="https://www.linkedin.com/in/enzo-pagliara-30379a267/">Enzo Plagiara</a>
+- <a href="https://www.linkedin.com/in/fernando-machado-84673a212/">Fernando Machado</a>
+- <a href="https://www.linkedin.com/in/heloisa-cavalcanti-oliveira-43b797267/">Heloisa Oliveira</a>
+- <a href="https://www.linkedin.com/in/mauricio-azevedo-neto/">Maurício Azevedo</a>
+- <a href="https://www.linkedin.com/in/murilo-prianti-0073111a1/">Murilo Prianti</a>
+- <a href="#">Sophia Nóbrega</a>
 
 ## Descrição
 
@@ -60,3 +68,9 @@ Encontre o index.html na pasta executáveis e execute-o como uma página WEB (at
 Para abrir este projeto você necessita das seguintes ferramentas:
 
 -<a href="https://godotengine.org/download">GODOT</a>
+
+  
+## 📋 Licença/License
+
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/Spidus/Teste_Final_1">V.talícios</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.inteli.edu.br/">INTELI</a> <a href="https://www.linkedin.com/in/antonio-guimar%C3%A3es-2bb961264/">Antonio Artimonte Vaz Guimarães</a>, <a href="https://www.linkedin.com/in/enzo-pagliara-30379a267/">Enzo Plagiara</a>, <a href="https://www.linkedin.com/in/fernando-machado-84673a212/">Fernando Machado</a>, <a href="https://www.linkedin.com/in/heloisa-cavalcanti-oliveira-43b797267/">Heloisa Oliveira</a>, <a href="https://www.linkedin.com/in/mauricio-azevedo-neto/">Maurício Azevedo</a>, <a href="https://www.linkedin.com/in/murilo-prianti-0073111a1/">Murilo Prianti</a>, <a href="#">Sophia Nóbrega</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"></a></p>
+
